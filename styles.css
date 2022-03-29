@@ -1,0 +1,48 @@
+.title {
+    text-align: center;
+}
+
+.board {
+    display: flex;
+    padding: 30px;
+    text-align: center;
+}
+
+.clues {
+    display: flex;
+    flex: wrap;
+    margin: auto;
+
+}
+
+.clues .tile {
+    display: inline-block;
+}
+
+
+.game {
+    width: 510px;
+    height: 510px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    margin: auto;
+}
+
+.tile {
+    width: 100px;
+    height: 100px;
+    border: 1px dashed grey;
+}
+
+.unselected {
+    background-color: white;
+}
+
+.correct {
+    background-color: black;
+}
+
+.incorrect {
+    background-color: red;
+}
